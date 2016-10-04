@@ -9,14 +9,29 @@ h1
     margin-top: 5%;
     text-align: center;
 }
-img
+h3
+{
+    font-family: NewsFont;
+    margin-top: 0;
+    margin-left: 10%;
+}
+img.skittles
 {
     margin: 2%;
     position: relative;
-    left: 18%;
+    width: 60%;
+    height: 60%;
+    left: 17%;
 }
-div.header
+img
 {
+    margin: 2%;
+    margin-top: -1%;
+    position: relative;
+    left: 31%;
+}
+header
+{   
     background-color: crimson;
     width: 100%;
     height: 7%;
@@ -24,10 +39,36 @@ div.header
     top: 0%;
     left: 0%;
 }
+header div
+{
+    position: relative;
+    width: 20%;
+    left: 35%;
+}
 div p
 {
     margin-left: 0;
-    margin-top: 0;
+    margin-top: -0.5%;
     font-family: NewsFont;
     font-size: 20px;
+    text-align: center;
+}
+#RedeSociais img
+{
+    width: 3%;
+    margin: 0;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: relative;
+}
+#RedeSociais
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
 }
